@@ -12,91 +12,174 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Web Design Mastery | SKYWINGS</title>
+    <title>Competition Coding First</title>
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon">
   </head>
   <body>
     <nav>
       <div class="nav__header">
         <div class="nav__logo">
-          <a href="#" class="logo">Skywings</a>
+          <a href="#" class="logo"
+            ><img src="assets/CF X Tinkering.png" alt="Icon"
+          /></a>
         </div>
         <div class="nav__menu__btn" id="menu-btn">
           <i class="ri-menu-line"></i>
         </div>
       </div>
       <ul class="nav__links" id="nav-links">
-        <li><a href="#home">HOME</a></li>
+        <li><a href="#inject">HOME</a></li>
         <li><a href="#about">ABOUT</a></li>
-        <li><a href="#tour">TOUR</a></li>
-        <li><a href="#package">PACKAGE</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-        <li><a href="#">BOOK TRIP</a></li>
+        <li><a href="#timeline">TIMELINE</a></li>
+        <li><a href="#package">FORMAT</a></li>
+        <li><a href="#contact">PRIZES</a></li>
+        <li><a href="#daftar">DAFTAR</a></li>
       </ul>
       <div class="nav__btns">
-        <button class="btn">BOOK TRIP</button>
+        <button class="btn">
+          <a href="https://forms.gle/AUvoE8ZYUReW2T5S6" target="_blank"
+            >DAFTAR SEKARANG</a
+          >
+        </button>
       </div>
     </nav>
+
+    <section id="inject"></section>
 
     <header id="home">
       <div class="header__container">
         <div class="header__content">
-          <p>ELEVATE YOUR TRAVEL JOURNEY</p>
-          <h1>Experience The Magic Of Flight!</h1>
+          <p>International Coding Competition 2025</p>
+          <h1>Showcase your creativity and coding skills with Scratch!</h1>
           <div class="header__btns">
-            <button class="btn">Book A Trip Now</button>
-            <a href="#">
+            <button class="btn">
+              <a
+                class="a-first"
+                href="https://forms.gle/AUvoE8ZYUReW2T5S6"
+                target="_blank"
+                >Yuk Daftar Sekarang</a
+              >
+            </button>
+            <a href="" class="a-second">
               <span><i class="ri-play-circle-fill"></i></span>
             </a>
           </div>
         </div>
         <div class="header__image">
-          <img src="assets/header.png" alt="header" />
+          <img
+            src="assets/cat flying-b (1).svg"
+            alt="header"
+            class="header__img"
+          />
         </div>
       </div>
     </header>
 
+    <section class="section__container showcase__container" id="about">
+      <div class="showcase__image">
+        <img src="assets/About.jpg" alt="showcase" />
+      </div>
+      <div class="showcase__content">
+        <h4>Tunjukan Kreativitas Mu dan Menangkan Hadiah Mu !</h4>
+        <p>
+          "International Coding Competition 2025 adalah kompetisi pengembangan
+          game menggunakan Scratch dengan tema 'Something Unique from Where You
+          Live.' Kompetisi ini bertujuan untuk meningkatkan kreativitas
+          anak-anak serta mempererat hubungan antara Indonesia dan Jepang."
+        </p>
+        <p>
+          Kompetisi ini dirancang untuk mendorong anak-anak mengeksplorasi
+          kreativitas mereka melalui teknologi dan pengembangan game. Dengan
+          tema yang berfokus pada keunikan tempat tinggal, peserta diajak untuk
+          berbagi cerita budaya, tradisi, atau ciri khas daerah masing-masing
+          melalui platform Scratch. Kompetisi ini tidak hanya mengasah kemampuan
+          coding, tetapi juga memperkuat rasa kebanggaan terhadap lingkungan
+          tempat tinggal mereka.
+        </p>
+        <div class="showcase__btn">
+          <button class="btn">
+            <a href="https://forms.gle/AUvoE8ZYUReW2T5S6"
+              >Daftarkan Dirimu Sekarang</a
+            >
+            <span><i class="ri-arrow-right-line"></i></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container discover__container" id="timeline">
+      <h2 class="section__header">Timeline</h2>
+      <p class="section__description">Alur Pendaftaran Sampai Pengumuman</p>
+      <div class="discover__grid">
+        <div class="discover__card">
+          <span><i class="ri-number-1"></i></span>
+          <h4>Pendaftaran</h4>
+          <p>
+            Pendaftaran Dibuka Selama <br />
+            23 Januari - 18 Februari 2025.
+          </p>
+        </div>
+        <div class="discover__card">
+          <span><i class="ri-number-2"></i></span>
+          <h4>Pengumpulan Karya</h4>
+          <p>
+            Deadline Submit Karya Pada <br />
+            18 Februari 2025
+          </p>
+        </div>
+        <div class="discover__card">
+          <span><i class="ri-number-3"></i></span>
+          <h4>Penjurian</h4>
+          <p>
+            Penjurian akan dilaksanakan Selama <br />
+            1 Minggu Setelah Penutupan Submit
+          </p>
+        </div>
+      </div>
+    </section>
+
     <section class="section__container destination__container" id="about">
-      <h2 class="section__header">Popular Destination</h2>
+      <h2 class="section__header">Hadiah Perlombaan</h2>
       <p class="section__description">
-        Discover the Most Loved Destinations Around the Globe
+        Hadiah Utama Yang Bisa didapatkan Pemenang !
       </p>
       <div class="destination__grid">
         <div class="destination__card">
-          <img src="assets/destination-1.jpg" alt="destination" />
+          <img src="assets/divoom.png" alt="destination" />
           <div class="destination__card__details">
             <div>
-              <h4>Tradition and Futurism</h4>
-              <p>New York City, USA</p>
+              <h4>Divoom Pixel LED Bag</h4>
+              <p>Karya Terbaik</p>
             </div>
             <div class="destination__rating">
               <span><i class="ri-star-fill"></i></span>
-              4.7
+              1st
             </div>
           </div>
         </div>
         <div class="destination__card">
-          <img src="assets/destination-2.jpg" alt="destination" />
+          <img src="assets/divoom.png" alt="destination" />
           <div class="destination__card__details">
             <div>
-              <h4>The City of Lights</h4>
-              <p>Paris, France</p>
+              <h4>Divoom Pixel LED Bag</h4>
+              <p>Karya Terbaik</p>
             </div>
             <div class="destination__rating">
               <span><i class="ri-star-fill"></i></span>
-              4.5
+              2nd
             </div>
           </div>
         </div>
         <div class="destination__card">
-          <img src="assets/destination-3.jpg" alt="destination" />
+          <img src="assets/divoom.png" alt="destination" />
           <div class="destination__card__details">
             <div>
-              <h4>Island of the Gods</h4>
-              <p>Bali, Indonesia</p>
+              <h4>Divoom Pixel LED Bag</h4>
+              <p>Karya Terbaik</p>
             </div>
             <div class="destination__rating">
               <span><i class="ri-star-fill"></i></span>
-              4.8
+              3rd
             </div>
           </div>
         </div>
@@ -104,145 +187,78 @@
     </section>
 
     <section class="section__container journey__container" id="tour">
-      <h2 class="section__header">Journey To The Sky Made Simple!</h2>
+      <h2 class="section__header">Ketentuan Lomba</h2>
       <p class="section__description">
-        Effortless Planning for Your Next Adventure
+        Hal Hal yang Perlu Diperhatikan dalam Perlombaan
       </p>
       <div class="journey__grid">
         <div class="journey__card">
           <div class="journey__card__bg">
             <span><i class="ri-bookmark-3-line"></i></span>
-            <h4>Seamless Booking Process</h4>
+            <h4>Platform Yang Digunakan</h4>
           </div>
           <div class="journey__card__content">
             <span><i class="ri-bookmark-3-line"></i></span>
-            <h4>Easy Reservations, One Click Away</h4>
+            <h4>Platform yang Digunakan</h4>
             <p>
-              From flights and accommodations to activities and transfers,
-              everything you need is available at your fingertips, making travel
-              planning effortless.
+              Peserta membuat game secara individu menggunakan platform Scratch,
+              dengan tema yang telah ditentukan serta waktu yang disediakan.
             </p>
           </div>
         </div>
         <div class="journey__card">
           <div class="journey__card__bg">
             <span><i class="ri-landscape-fill"></i></span>
-            <h4>Tailored Itineraries</h4>
+            <h4>Tema Yang Dilombakan</h4>
           </div>
           <div class="journey__card__content">
             <span><i class="ri-landscape-fill"></i></span>
-            <h4>Customized Plans Just for You</h4>
+            <h4>Tema Yang Dilombakan</h4>
             <p>
-              Enjoy personalized travel plans designed to match your preferences
-              and interests. Whether you seek adventure or cultural immersion,
-              our tailored itineraries ensure your journey is uniquely yours.
+              Untuk tema yang diangkat kali ini adalah "Membuat game tentang
+              tempat tinggal masing-masing." <br />
+              Contoh : Lokasi terkenal, makanan khas, atau budaya lokal.
             </p>
           </div>
         </div>
         <div class="journey__card">
           <div class="journey__card__bg">
             <span><i class="ri-map-2-line"></i></span>
-            <h4>Expert Local Insights</h4>
+            <h4>Pengumpulan Karya</h4>
           </div>
           <div class="journey__card__content">
             <span><i class="ri-map-2-line"></i></span>
-            <h4>Insider Tips and Recommendations</h4>
+            <h4>Pengumpulan Karya</h4>
             <p>
-              We provide curated recommendations for dining, sightseeing, and
-              hidden gems, so you can experience each destination like a local.
+              Karya dapat dikumpulkan pada Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section__container showcase__container" id="package">
-      <div class="showcase__image">
-        <img src="assets/showcase.jpg" alt="showcase" />
-      </div>
-      <div class="showcase__content">
-        <h4>UNLEASH WANDERLUST WITH SKYWINGS</h4>
-        <p>
-          Embark on a journey like no other with Skywings, where your travel
-          dreams come to life. Our mission is to inspire and facilitate your
-          adventures, whether you seek the vibrant energy of bustling
-          cityscapes, the serene beauty of pristine beaches, or the captivating
-          history of ancient landmarks. At Skywings, we provide expertly curated
-          destinations and personalized itineraries, ensuring that every trip is
-          tailored to your unique preferences. Discover hidden gems, immerse
-          yourself in diverse cultures, and create unforgettable memories that
-          will last a lifetime.
-        </p>
-        <p>
-          With Skywings as your ultimate travel companion, exploring the wonders
-          of the world has never been easier. Our insider tips and local
-          insights give you the tools to navigate new places with confidence and
-          excitement. From the moment you start planning to the day you return
-          home, we are dedicated to making your travel experience seamless and
-          enriching.
-        </p>
-        <div class="showcase__btn">
-          <button class="btn">
-            Book A Flight Now
-            <span><i class="ri-arrow-right-line"></i></span>
-          </button>
-        </div>
-      </div>
-    </section>
-
+    <h2 class="section__header">Syarat Peserta</h2>
+    <p class="section__description">Apa saja persyaratan dalam Perlombaan</p>
     <section class="section__container banner__container">
       <div class="banner__card">
-        <h4>10+</h4>
-        <p>Years Experience</p>
+        <h4>Usia</h4>
+        <p>6-15 Tahun</p>
       </div>
       <div class="banner__card">
-        <h4>12K</h4>
-        <p>Happy Clients</p>
+        <h4>Pengerjaan</h4>
+        <p>Individu</p>
       </div>
       <div class="banner__card">
-        <h4>4.8</h4>
-        <p>Overall Ratings</p>
-      </div>
-    </section>
-
-    <section class="section__container discover__container">
-      <h2 class="section__header">Discover The World From Above</h2>
-      <p class="section__description">
-        Experience Breathtaking Views and Unique Perspectives
-      </p>
-      <div class="discover__grid">
-        <div class="discover__card">
-          <span><i class="ri-camera-lens-line"></i></span>
-          <h4>Aerial Cityscapes</h4>
-          <p>
-            Witness the architectural marvels and bustling streets from
-            bird's-eye view, offering a unique perspective.
-          </p>
-        </div>
-        <div class="discover__card">
-          <span><i class="ri-ship-line"></i></span>
-          <h4>Coastal Wonders</h4>
-          <p>
-            Fly over pristine coastlines and turquoise waters, revealing hidden
-            coves and vibrant coral reefs.
-          </p>
-        </div>
-        <div class="discover__card">
-          <span><i class="ri-landscape-line"></i></span>
-          <h4>Historic Landmarks</h4>
-          <p>
-            Observe the grandeur of ancient castles and other significant sites
-            in a way that ground tours can't offer.
-          </p>
-        </div>
+        <h4>Terdaftar</h4>
+        <p>Telah Mendaftar sebagai Peserta</p>
       </div>
     </section>
 
     <section class="section__container client__container">
-      <h2 class="section__header">Loved By Over Thousand Travelers</h2>
+      <h2 class="section__header">Kriteria Penilaian</h2>
       <p class="section__description">
-        Discover the stories of wanderlust and cherished memories through the
-        eyes of our valued clients.
+        Apa saja kriteria yang akan menjadi patokan penilaian ?
       </p>
       <!-- Slider main container -->
       <div class="swiper">
@@ -260,18 +276,17 @@
                   <span><i class="ri-star-fill"></i></span>
                 </div>
                 <p>
-                  Skywings has completely transformed my travel experience. From
-                  finding hidden gems in bustling cities to discovering serene
-                  retreats off the beaten path, every detail was thoughtfully
-                  arranged. I can't recommend Skywings enough for anyone looking
-                  to elevate their travel experience!
+                  "Penilaian aspek desain mencakup kualitas visual, tata letak,
+                  dan kejelasan elemen-elemen dalam game, termasuk penggunaan
+                  warna, grafik, dan animasi yang mendukung pengalaman pengguna
+                  secara keseluruhan."
                 </p>
               </div>
               <div class="client__details">
-                <img src="assets/client-1.jpg" alt="client" />
+                <!-- <img src="assets/client-1.jpg" alt="client" /> -->
                 <div>
-                  <h4>John Adams</h4>
-                  <h5>Travel Blogger</h5>
+                  <h4>Design</h4>
+                  <h5>Design Game</h5>
                 </div>
               </div>
             </div>
@@ -287,18 +302,17 @@
                   <span><i class="ri-star-fill"></i></span>
                 </div>
                 <p>
-                  My recent adventure with Skywings was nothing short of
-                  spectacular. The personalized itineraries and recommendations
-                  they provided led me to extraordinary locations that I would
-                  never have found on my own. I'm already planning my next
-                  adventure with them!
+                  "Kreativitas dan orisinalitas ide menjadi poin penting, di
+                  mana peserta dinilai berdasarkan kemampuan mereka untuk
+                  menghadirkan konsep game yang unik, menarik, dan relevan
+                  dengan tema 'Something Unique from Where You Live.'"
                 </p>
               </div>
               <div class="client__details">
-                <img src="assets/client-2.jpg" alt="client" />
+                <!-- <img src="assets/client-2.jpg" alt="client" /> -->
                 <div>
-                  <h4>Emily Thompson</h4>
-                  <h5>Adventure Enthusiast</h5>
+                  <h4>Idea Originality</h4>
+                  <h5>Originalitas Karya</h5>
                 </div>
               </div>
             </div>
@@ -314,18 +328,18 @@
                   <span><i class="ri-star-fill"></i></span>
                 </div>
                 <p>
-                  Skywings offered a transformative experience for my research
-                  into historical landmarks. The unique aerial perspectives and
-                  provided a new level of appreciation and insight into the
-                  sites I studied. I highly recommend their services to fellow
-                  historians and cultural enthusiasts.
+                  "Kompleksitas dan tingkat kedalaman pemrograman yang digunakan
+                  akan menjadi pertimbangan, termasuk penggunaan logika coding,
+                  efisiensi script, serta integrasi fitur-fitur dalam game untuk
+                  menciptakan pengalaman bermain yang interaktif dan
+                  menyenangkan."
                 </p>
               </div>
               <div class="client__details">
-                <img src="assets/client-3.jpg" alt="client" />
+                <!-- <img src="assets/client-3.jpg" alt="client" /> -->
                 <div>
-                  <h4>Sarah Lee</h4>
-                  <h5>Cultural Historian</h5>
+                  <h4>Level Program</h4>
+                  <h5>Level Kesulitan Pembuatan Game</h5>
                 </div>
               </div>
             </div>
@@ -361,54 +375,59 @@
       </div>
     </section>
 
-    <footer id="contact">
+    <footer id="daftar">
       <div class="section__container footer__container">
         <div class="footer__col">
           <div class="footer__logo">
-            <a href="#" class="logo">Skywings</a>
+            <a href="#" class="logo"></a>
+            <img src="assets/CF X TB footer.png" alt="footer-logo" />
           </div>
           <p>
-            Explore the world with ease and excitement through our comprehensive
-            travel platform. Your journey begins here, where seamless planning
-            meets unforgettable experiences.
+            International Coding Competition 2025 adalah kompetisi pengembangan
+            game menggunakan Scratch dengan tema "Something Unique from Where
+            You Live." Kompetisi ini bertujuan untuk meningkatkan kreativitas
+            anak-anak serta mempererat hubungan antara Indonesia dan Jepang.
+            Kompetisi ini terbuka untuk anak-anak berusia 4-12 tahun.
           </p>
           <ul class="footer__socials">
             <li>
-              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100081941116018" target="_blank"><i class="ri-facebook-fill"></i></a>
             </li>
             <li>
-              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="https://www.instagram.com/coding.first?" target="_blank"><i class="ri-instagram-line"></i></a>
             </li>
             <li>
-              <a href="#"><i class="ri-youtube-line"></i></a>
+              <a href="https://wa.me/6287769678988" target="_blank"><i class="ri-whatsapp-line"></i></a>
             </li>
           </ul>
         </div>
         <div class="footer__col">
           <h4>Quick Links</h4>
           <ul class="footer__links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Flights</a></li>
-            <li><a href="#">Hotels</a></li>
-            <li><a href="#">Cruise</a></li>
+            <li><a href="#inject">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#timeline">TIMELINE</a></li>
+            <li><a href="#package">FORMAT</a></li>
+            <li><a href="#contact">PRIZES</a></li>
+            <li><a href="#daftar">DAFTAR</a></li>
           </ul>
         </div>
         <div class="footer__col">
           <h4>Contact Us</h4>
           <ul class="footer__links">
             <li>
-              <a href="#">
-                <span><i class="ri-phone-fill"></i></span> +91 9876543210
+              <a href="https://wa.me/6287769678988">
+                <span><i class="ri-phone-fill"></i></span> +62 877-6967-8988
+              </a>
+            </li>
+            <li>
+              <a href="codingfirst.id@gmail.com">
+                <span><i class="ri-record-mail-line"></i></span> codingfirst.id@gmail.com
               </a>
             </li>
             <li>
               <a href="#">
-                <span><i class="ri-record-mail-line"></i></span> info@skywings
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span><i class="ri-map-pin-2-fill"></i></span> New Delhi, India
+                <span><i class="ri-map-pin-2-fill"></i> Gg. Banowati No. 6B, Jatiwangun, Banyumas, Jawa Tengah, Indonesia 53114</span> 
               </a>
             </li>
           </ul>
@@ -422,7 +441,7 @@
         </div>
       </div>
       <div class="footer__bar">
-        Copyright © 2024 Web Design Mastery. All rights reserved.
+        Copyright © 2025 Coding1st.com All rights reserved.
       </div>
     </footer>
 
