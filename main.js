@@ -70,7 +70,22 @@ ScrollReveal().reveal(".discover__card", {
 });
 
 const swiper = new Swiper(".swiper", {
-  slidesPerView: 3,
-  spaceBetween: 20,
-  loop: true,
+  slidesPerView: 3, // Default: Show 3 slides for larger screens
+  spaceBetween: 20, // Space between slides for larger screens
+  loop: true, // Enable infinite looping
+  breakpoints: {
+    // When the viewport width is <= 768px
+    768: {
+      slidesPerView: 1, // Show only 1 slide
+      spaceBetween: 0, // Remove extra space between slides
+    },
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true, // Pagination dots are clickable
+  },
+  navigation: {
+    nextEl: ".swiper-button-next", // Right navigation button
+    prevEl: ".swiper-button-prev", // Left navigation button
+  },
 });
