@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="home.css" />
     <title>Competition Coding First</title>
-    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="/assets/favicon/favicon.ico"
+      type="image/x-icon" />
   </head>
   <body>
     <nav>
@@ -31,8 +32,8 @@
         <li><a href="#inject">HOME</a></li>
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#timeline">TIMELINE</a></li>
-        <li><a href="#package">FORMAT</a></li>
-        <li><a href="#contact">PRIZES</a></li>
+        <li><a href="#format">FORMAT</a></li>
+        <li><a href="#prize">PRIZES</a></li>
         <li><a href="#daftar">DAFTAR</a></li>
       </ul>
       <div class="nav__btns">
@@ -60,17 +61,16 @@
                 >Yuk Daftar Sekarang</a
               >
             </button>
-            <a href="" class="a-second">
+            <!-- <a href="" class="a-second">
               <span><i class="ri-play-circle-fill"></i></span>
-            </a>
+            </a> -->
           </div>
         </div>
         <div class="header__image">
           <img
             src="assets/cat flying-b (1).svg"
             alt="header"
-            class="header__img"
-          />
+            class="header__img" />
         </div>
       </div>
     </header>
@@ -81,6 +81,41 @@
       </div>
       <div class="showcase__content">
         <h4>Tunjukan Kreativitas Mu dan Menangkan Hadiah Mu !</h4>
+        <p>
+          "International Coding Competition 2025 adalah kompetisi pengembangan
+          game menggunakan Scratch dengan tema 'Something Unique from Where You
+          Live.' Kompetisi ini bertujuan untuk meningkatkan kreativitas
+          anak-anak serta mempererat hubungan antara Indonesia dan Jepang."
+        </p>
+        <p>
+          Kompetisi ini dirancang untuk mendorong anak-anak mengeksplorasi
+          kreativitas mereka melalui teknologi dan pengembangan game. Dengan
+          tema yang berfokus pada keunikan tempat tinggal, peserta diajak untuk
+          berbagi cerita budaya, tradisi, atau ciri khas daerah masing-masing
+          melalui platform Scratch. Kompetisi ini tidak hanya mengasah kemampuan
+          coding, tetapi juga memperkuat rasa kebanggaan terhadap lingkungan
+          tempat tinggal mereka.
+        </p>
+        <div class="showcase__btn">
+          <button class="btn">
+            <a href="https://forms.gle/AUvoE8ZYUReW2T5S6"
+              >Daftarkan Dirimu Sekarang</a
+            >
+            <span><i class="ri-arrow-right-line"></i></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container showcase__container" id="about">
+      <div class="showcase__image-2">
+        <video controls width="400" height="600">
+          <source src="assets/DivoomVid.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>   
+      </div>
+      <div class="showcase__content-2">
+        <h4>Hadiah Utama Menantimu!</h4>
         <p>
           "International Coding Competition 2025 adalah kompetisi pengembangan
           game menggunakan Scratch dengan tema 'Something Unique from Where You
@@ -138,14 +173,14 @@
       </div>
     </section>
 
-    <section class="section__container destination__container" id="about">
+    <section class="section__container destination__container" id="prize">
       <h2 class="section__header">Hadiah Perlombaan</h2>
       <p class="section__description">
         Hadiah Utama Yang Bisa didapatkan Pemenang !
       </p>
       <div class="destination__grid">
         <div class="destination__card">
-          <img src="assets/divoom.png" alt="destination" />
+          <img src="assets/divoom (2).png" alt="destination" />
           <div class="destination__card__details">
             <div>
               <h4>Divoom Pixel LED Bag</h4>
@@ -157,7 +192,7 @@
             </div>
           </div>
         </div>
-        <div class="destination__card">
+        <!-- <div class="destination__card">
           <img src="assets/divoom.png" alt="destination" />
           <div class="destination__card__details">
             <div>
@@ -182,11 +217,11 @@
               3rd
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
-    <section class="section__container journey__container" id="tour">
+    <section class="section__container journey__container" id="format">
       <h2 class="section__header">Ketentuan Lomba</h2>
       <p class="section__description">
         Hal Hal yang Perlu Diperhatikan dalam Perlombaan
@@ -230,8 +265,7 @@
             <span><i class="ri-map-2-line"></i></span>
             <h4>Pengumpulan Karya</h4>
             <p>
-              Karya dapat dikumpulkan pada Lorem ipsum dolor sit amet
-              consectetur adipisicing elit.
+              Karya dapat dikumpulkan pada <a style="color: white; text-decoration: underline;" href="https://api.whatsapp.com/send?phone=+62 877-6967-8988&text=Halo%2C%20saya%20ingin%20submit%20karya%20saya">Disini</a>
             </p>
           </div>
         </div>
@@ -255,7 +289,7 @@
       </div>
     </section>
 
-    <section class="section__container client__container">
+    <section class="section__container-2 client__container">
       <h2 class="section__header">Kriteria Penilaian</h2>
       <p class="section__description">
         Apa saja kriteria yang akan menjadi patokan penilaian ?
@@ -372,15 +406,17 @@
             </div>
           </div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
       </div>
     </section>
 
-    <footer id="daftar">
-      <div class="section__container footer__container">
+    <div id="daftar">
+      <footer class="section__container footer__container">
         <div class="footer__col">
           <div class="footer__logo">
-            <a href="#" class="logo"></a>
-            <img src="assets/CF X TB footer.png" alt="footer-logo" />
+            <a href="#" class="logo"><img src="assets/CF X TB footer.png" alt="footer-logo" /></a>
           </div>
           <p>
             International Coding Competition 2025 adalah kompetisi pengembangan
@@ -391,13 +427,21 @@
           </p>
           <ul class="footer__socials">
             <li>
-              <a href="https://www.facebook.com/profile.php?id=100081941116018" target="_blank"><i class="ri-facebook-fill"></i></a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100081941116018"
+                target="_blank"
+                ><i class="ri-facebook-fill"></i
+              ></a>
             </li>
             <li>
-              <a href="https://www.instagram.com/coding.first?" target="_blank"><i class="ri-instagram-line"></i></a>
+              <a href="https://www.instagram.com/coding.first?" target="_blank"
+                ><i class="ri-instagram-line"></i
+              ></a>
             </li>
             <li>
-              <a href="https://wa.me/6287769678988" target="_blank"><i class="ri-whatsapp-line"></i></a>
+              <a href="https://wa.me/6287769678988" target="_blank"
+                ><i class="ri-whatsapp-line"></i
+              ></a>
             </li>
           </ul>
         </div>
@@ -422,17 +466,21 @@
             </li>
             <li>
               <a href="codingfirst.id@gmail.com">
-                <span><i class="ri-record-mail-line"></i></span> codingfirst.id@gmail.com
+                <span><i class="ri-record-mail-line"></i></span>
+                codingfirst.id@gmail.com
               </a>
             </li>
             <li>
               <a href="#">
-                <span><i class="ri-map-pin-2-fill"></i> Gg. Banowati No. 6B, Jatiwangun, Banyumas, Jawa Tengah, Indonesia 53114</span> 
+                <span
+                  ><i class="ri-map-pin-2-fill"></i> Gg. Banowati No. 6B,
+                  Jatiwangun, Banyumas, Jawa Tengah, Indonesia 53114</span
+                >
               </a>
             </li>
           </ul>
         </div>
-        <div class="footer__col">
+        <div class="footer__col" id="contact__form">
           <h4>Subscribe</h4>
           <form action="/">
             <input type="text" placeholder="Enter your email" />
@@ -442,8 +490,8 @@
       </div>
       <div class="footer__bar">
         Copyright © 2025 Coding1st.com All rights reserved.
-      </div>
-    </footer>
+      </footer>
+    </div>
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

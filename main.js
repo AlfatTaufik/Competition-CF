@@ -4,12 +4,12 @@ const menuBtnIcon = menuBtn.querySelector("i");
 
 menuBtn.addEventListener("click", (e) => {
   navLinks.classList.toggle("open");
-
   const isOpen = navLinks.classList.contains("open");
   menuBtnIcon.setAttribute("class", isOpen ? "ri-close-line" : "ri-menu-line");
 });
 
-navLinks.addEventListener("click", (e) => {
+// Close menu when clicking links
+navLinks.addEventListener("click", () => {
   navLinks.classList.remove("open");
   menuBtnIcon.setAttribute("class", "ri-menu-line");
 });
@@ -70,7 +70,23 @@ ScrollReveal().reveal(".discover__card", {
 });
 
 const swiper = new Swiper(".swiper", {
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 20,
   loop: true,
+  breakpoints: {
+    768: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      centeredSlides: true,
+      centeredSlidesBounds: true, // Add this for better centering
+    },
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 });
