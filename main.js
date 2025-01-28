@@ -4,12 +4,12 @@ const menuBtnIcon = menuBtn.querySelector("i");
 
 menuBtn.addEventListener("click", (e) => {
   navLinks.classList.toggle("open");
-
   const isOpen = navLinks.classList.contains("open");
   menuBtnIcon.setAttribute("class", isOpen ? "ri-close-line" : "ri-menu-line");
 });
 
-navLinks.addEventListener("click", (e) => {
+// Close menu when clicking links
+navLinks.addEventListener("click", () => {
   navLinks.classList.remove("open");
   menuBtnIcon.setAttribute("class", "ri-menu-line");
 });
@@ -70,22 +70,23 @@ ScrollReveal().reveal(".discover__card", {
 });
 
 const swiper = new Swiper(".swiper", {
-  slidesPerView: 3, // Default: Show 3 slides for larger screens
-  spaceBetween: 20, // Space between slides for larger screens
-  loop: true, // Enable infinite looping
+  slidesPerView: 1,
+  spaceBetween: 20,
+  loop: true,
   breakpoints: {
-    // When the viewport width is <= 768px
     768: {
-      slidesPerView: 1, // Show only 1 slide
-      spaceBetween: 0, // Remove extra space between slides
+      slidesPerView: 1,
+      spaceBetween: 0,
+      centeredSlides: true,
+      centeredSlidesBounds: true, // Add this for better centering
     },
   },
   pagination: {
     el: ".swiper-pagination",
-    clickable: true, // Pagination dots are clickable
+    clickable: true,
   },
   navigation: {
-    nextEl: ".swiper-button-next", // Right navigation button
-    prevEl: ".swiper-button-prev", // Left navigation button
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 });
