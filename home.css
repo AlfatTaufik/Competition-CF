@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
   --primary-color: #1658d4fe;
@@ -30,7 +31,7 @@ body {
 
 .section__container-2 {
   /* max-width: var(--max-width); */
-  /* margin: auto; */
+  margin: auto;
   /* display: fle;/ */
   justify-content: center;
   padding: 5rem 1rem;
@@ -92,16 +93,16 @@ body {
 }
 
 body {
-  font-family: "Righteous", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 nav {
-  /* position: fixed; */
+  position: fixed;
   isolation: isolate;
   top: 0;
   width: 100%;
   background-color: var(--primary-color);
-  /* z-index: 9999; */
+  z-index: 9999;
 }
 
 .nav__header {
@@ -200,6 +201,10 @@ header::before {
 .header__content {
   /* padding: 2rem 1rem; */
   margin-left: 20px;
+}
+
+.inject {
+  margin-top: 5rem;
 }
 
 .header__content p {
@@ -319,7 +324,7 @@ header::before {
 }
 
 .journey__card__bg {
-  padding: 2rem;
+  padding: 3.5rem;
   background-color: var(--extra-light);
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
@@ -395,9 +400,14 @@ header::before {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
+.videoDivoom {
+  object-fit: fill;
+}
+
 .showcase__image-2 video {
   max-width: var(--max-width);
   margin-inline: auto;
+  margin-left: 6rem;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -467,6 +477,7 @@ header::before {
 
 .showcase__content-2 {
   max-width: 600px; /* Batasi lebar teks agar rapi */
+  text-align: center;
 }
 
 .showcase__content-2 h4 {
@@ -765,6 +776,21 @@ footer {
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .showcase__image-2 video {
+    max-width: var(--max-width);
+    margin-inline: auto;
+    /* margin-left: 2.5rem; */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .section__container-2 {
+    margin: auto;
+  }
+
+  .section__container {
+    margin: 0;
+  }
+
   .destination__card img {
     border-radius: 1.5rem;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
@@ -780,7 +806,7 @@ footer {
   #home {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 7rem;
     z-index: -1;
   }
 
@@ -813,6 +839,29 @@ footer {
     align-items: center;
   }
 
+  .showcase__content-2 {
+    width: 330px;
+    margin: auto;
+  }
+
+  .showcase__content-2 p {
+    font-size: 1rem;
+  }
+  
+  video {
+    width: 230px;
+    
+  }
+
+  .showcase__content-2 h4{
+    font-size: 2rem;
+  }
+
+  .showcase__content-2 img{
+    font-size: 2rem;
+    margin-left: 0;
+  }
+
   .banner__container {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -835,6 +884,7 @@ footer {
 
   #home {
     display: flex;
+    margin-top: 7rem;
     justify-content: center;
   }
 
@@ -872,6 +922,12 @@ footer {
     z-index: 999999999;
     overflow-x: hidden;
   }
+
+  /* .showcase__content-2 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  } */
 
   .destination__card img {
     border-radius: 1.5rem;
@@ -1130,4 +1186,13 @@ footer {
       width: 100%;
     }
   }
+}
+
+@media (width > 1400px) {
+  .showcase__image-2 video {
+    max-width: var(--max-width);
+    margin: auto;
+    margin-left: 25rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  }  
 }
