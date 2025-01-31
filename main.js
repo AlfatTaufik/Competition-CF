@@ -78,7 +78,7 @@ const swiper = new Swiper(".swiper", {
       slidesPerView: 1,
       spaceBetween: 0,
       centeredSlides: true,
-      centeredSlidesBounds: true, // Add this for better centering
+      centeredSlidesBounds: true, // Add this for bet0ter centering
     },
   },
   pagination: {
